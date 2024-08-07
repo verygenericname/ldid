@@ -178,7 +178,7 @@ jobs:
 
   build-macos:
     name: Build
-    runs-on: macos-11
+    runs-on: macos-latest
     strategy:
       matrix:
         include:
