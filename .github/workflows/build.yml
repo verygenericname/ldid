@@ -275,7 +275,6 @@ jobs:
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
-        if: ${{ github.event_name == 'workflow_dispatch' }}
         with:
           name: ldid_${{ matrix.os }}_${{ matrix.arch }}
           path: ldid
